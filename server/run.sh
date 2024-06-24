@@ -1,0 +1,1 @@
+screen -d -m -S "stardust_screen" -L -Logfile server.log java -Xms2G -Xmx4G -jar server.jar nogui

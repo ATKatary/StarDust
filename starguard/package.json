@@ -1,0 +1,21 @@
+{
+  "name": "starguard",
+  "version": "1.0.0",
+  "description": "Manager bot for StarDust",
+  "main": "index.js",
+  "author": "Ahmed Katary",
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.34.0",
+    "discord.js": "^13.9.0",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.9"
+  },
+  "scripts": {
+    "start": "node deploy-commands.js && node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

@@ -137,4 +137,5 @@ server/world
 server/server.log 
 server/usercache.json
 server/.fabric
-server/mods/Cobblemon-fabric-1.5.0+1.20.1.jar
+server/mods
+server/libraries
